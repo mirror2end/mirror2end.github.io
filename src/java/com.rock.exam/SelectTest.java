@@ -8,7 +8,7 @@ public class SelectTest {
     public static void main(String[] args) {
         int temp;
         int[] array={5,9,7,3,2,5,4,9,8,1};
-
+        System.out.println(array);
         for (int i=0;i< array.length;i++){
             for (int j=i+1;j<array.length;j++){
                 if (array[i]>array[j]){
